@@ -1,4 +1,7 @@
 {
+  "[html]": {
+    "files.trimTrailingWhitespace": true
+  },
   "[markdown]": {
     "editor.codeActionsOnSave": {
       "source.fixAll.markdownlint": "explicit"
