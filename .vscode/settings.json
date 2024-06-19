@@ -16,4 +16,13 @@
   "files.insertFinalNewline": true,
   "git.autofetch": true,
   "liveServer.settings.port": 5501,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
 }
