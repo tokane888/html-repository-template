@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "biomejs.biome",
+    "github.vscode-github-actions",
     "streetsidesoftware.code-spell-checker",
     "yusukehirao.vscode-markuplint"
   ]
