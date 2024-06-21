@@ -1,8 +1,22 @@
 {
+  "cSpell.ignoreRegExpList": [
+    "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+" // 日本語に対してspell checkが正常に機能しないのでcheck対象から除外
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "liveServer.settings.port": 5501,
   "[html]": {
     "files.trimTrailingWhitespace": true
   },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
   "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome",
     "files.trimTrailingWhitespace": true
   },
   "[markdown]": {
@@ -10,19 +24,10 @@
       "source.fixAll.markdownlint": "explicit"
     },
   },
-  "cSpell.ignoreRegExpList": [
-    "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+" // 日本語に対してspell checkが正常に機能しないのでcheck対象から除外
-  ],
-  "files.insertFinalNewline": true,
-  "git.autofetch": true,
-  "liveServer.settings.port": 5501,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact"
-  ],
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
   },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
 }
