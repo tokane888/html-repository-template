@@ -16,3 +16,9 @@ jobs:
           version: latest
       - name: Run Biome
         run: biome ci .
+        env:
+          PATHS_IGNORE: |
+            .vscode/**
+            package.json
+            package-lock.json
+            tsconfig.json
