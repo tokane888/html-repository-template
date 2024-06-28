@@ -16,7 +16,9 @@
             "outFiles": [
                 "${workspaceFolder}/**/*.(m|c|)js",
                 "!**/node_modules/**"
-            ]
+            ],
+            // F5デバッグ時にDebug Consoleが開くよう設定
+            "internalConsoleOptions": "openOnSessionStart"
         }
     ]
 }
