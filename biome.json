@@ -1,11 +1,12 @@
 {
-    "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-    "linter": {
-        "ignore": [
-            "out",
-            ".vscode/**",
-            "package.json",
-            "package-lock.json"
-        ]
-    }
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"ignore": [
+			"out",
+			".vscode/**",
+			"package.json",
+			"package-lock.json",
+			"tsconfig.json"
+		]
+	}
 }
