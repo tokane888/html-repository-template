@@ -14,7 +14,7 @@
             "program": "${workspaceFolder}/index.ts",
             "preLaunchTask": "tsc: build - tsconfig.json",
             "outFiles": [
-                "${workspaceFolder}/**/*.(m|c|)js",
+                "${workspaceFolder}/out/**/*.(m|c|)js",
                 "!**/node_modules/**"
             ],
             // F5デバッグ時にDebug Consoleが開くよう設定
