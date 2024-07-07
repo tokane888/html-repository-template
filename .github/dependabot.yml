@@ -4,3 +4,7 @@ updates:
     directory: / # パッケージマニフェスト配置先ディレクトリ。ただしGithub actionのみ固定で"/"
     schedule:
       interval: weekly
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
