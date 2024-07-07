@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.2",
+    "@types/node": "^20.14.10",
     "markuplint": "^4.9.1"
   }
 }
