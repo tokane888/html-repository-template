@@ -8,4 +8,5 @@ htmlを使用するrepositoryのtemplate
 ## TODO
 
 - src配下の.tsファイルは消す
-- module関連の落とし穴への注意喚起のために残しているだけなので
+  - module関連の落とし穴への注意喚起のために残しているだけなので
+- src/.gitkeep消去
