@@ -3,7 +3,7 @@
     "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+" // 日本語に対してspell checkが正常に機能しないのでcheck対象から除外
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.organizeImports.biome": "explicit"
   },
   "editor.formatOnSave": true,
   "files.insertFinalNewline": true,
