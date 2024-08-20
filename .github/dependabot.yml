@@ -3,11 +3,10 @@ updates:
   - package-ecosystem: github-actions
     directory: / # パッケージマニフェスト配置先ディレクトリ。ただしGithub actionのみ固定で"/"
     schedule:
-      interval: weekly
+      interval: monthly
   - package-ecosystem: npm
     directory: /
     schedule:
-      interval: weekly
+      interval: monthly
     ignore:
       - dependency-name: "*"
-        update-types: ["version-update:semver-patch"]
